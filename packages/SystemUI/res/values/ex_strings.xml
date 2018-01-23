@@ -20,145 +20,145 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Content description of the data connection type HSPA+ for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->
     <string name="accessibility_data_connection_hspap">HSPA+</string>
-    <string name="global_action_restart_advanced">Advanced</string>
+    <string name="global_action_restart_advanced">Avançado</string>
     <string name="global_action_restart_recovery">Recovery</string>
     <string name="global_action_restart_bootloader">Bootloader</string>
-    <string name="global_action_restart_ui">SystemUI</string>
-    <string name="global_action_restart_soft">Soft Reboot</string>
-    <string name="global_action_screenrecord">Screenrecord</string>
+    <string name="global_action_restart_ui">Interface</string>
+    <string name="global_action_restart_soft">Reinício suave</string>
+    <string name="global_action_screenrecord">Gravação de tela</string>
 
     <string name="summary_empty" translatable="false"></string>
 
     <!-- Advance location quick setting tile -->
-    <string name="accessibility_quick_settings_location_battery_saving">Location reporting: battery saving mode.</string>
-    <string name="accessibility_quick_settings_location_gps_only">Location reporting: sensors only mode.</string>
-    <string name="accessibility_quick_settings_location_high_accuracy">Location reporting: high accuracy mode.</string>
+    <string name="accessibility_quick_settings_location_battery_saving">Location reporting: economia de energia.</string>
+    <string name="accessibility_quick_settings_location_gps_only">Location reporting: somente gps.</string>
+    <string name="accessibility_quick_settings_location_high_accuracy">Location reporting: alta precisão.</string>
 
     <!-- PiP Tile -->
     <string name="quick_settings_pip_label">PiP</string>
 
     <!-- Caffeine QS Tile -->
     <string name="quick_settings_caffeine_label">Caffeine</string>
-    <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
-    <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
+    <string name="accessibility_quick_settings_caffeine_off">Cafeína desligada</string>
+    <string name="accessibility_quick_settings_caffeine_on">Cafeína ligada</string>
 
-    <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_title">Itens da barra de status</string>
 
     <!-- Screenshot QS tile -->
-    <string name="quick_settings_screenshot_label">Screenshot</string>
-    <string name="quick_settings_region_screenshot_label">Partial screenshot</string>
+    <string name="quick_settings_screenshot_label">Captura de tela</string>
+    <string name="quick_settings_region_screenshot_label">Captura de tela parcial</string>
 
-    <string name="recents_free_ram">Free RAM: %1$d MB</string>
+    <string name="recents_free_ram">RAM livre: %1$d MB</string>
 
     <!-- volte icon switch -->
-    <string name="status_bar_volte">VOLTE</string>
+    <string name="status_bar_volte">VoLTE</string>
 
     <!-- 4G LTE switch -->
-    <string name="show_fourg_title">Show 4G instead of LTE</string>
-    <string name="show_fourg_summary">Replaces LTE statusbar indicator with 4G</string>
+    <string name="show_fourg_title">Mostrar 4G invés de LTE</string>
+    <string name="show_fourg_summary">Trocar ícone LTE por 4G</string>
 
-    <string name="systemui_tuner_navbar_title">Stock settings</string>
+    <string name="systemui_tuner_navbar_title">Configurações padrão</string>
 
     <!-- Screenrecord Notification Ticker -->
-    <string name="screenrecord_notif_ticker">Screen is being recorded</string>
+    <string name="screenrecord_notif_ticker">A tela está sendo gravada</string>
     <!-- Screenrecord notification title -->
-    <string name="screenrecord_notif_title">Recording screen</string>
+    <string name="screenrecord_notif_title">Gravando tela</string>
     <!-- Screenrecord notification action: Stop -->
-    <string name="screenrecord_notif_stop">Stop</string>
+    <string name="screenrecord_notif_stop">Parar</string>
     <!-- Screenrecord notification action: show/hide pointer -->
-    <string name="screenrecord_notif_pointer_on">Show pointer</string>
-    <string name="screenrecord_notif_pointer_off">Hide pointer</string>
+    <string name="screenrecord_notif_pointer_on">Mostrar pontos</string>
+    <string name="screenrecord_notif_pointer_off">Esconder pontos</string>
     <!-- Screen record notification error title -->
-    <string name="screenrecord_notif_error">Unable to record screen</string>
-    <string name="notification_channel_screenrecord">Screenrecords</string>
+    <string name="screenrecord_notif_error">Impossível gravar a tela</string>
+    <string name="notification_channel_screenrecord">Gravações de tela</string>
 
     <!-- LTE QS Tile -->
     <string name="qs_lte_label">LTE</string>
-    <string name="lte_on">LTE ON </string>
-    <string name="lte_off">LTE OFF</string>
+    <string name="lte_on">LTE LIGADO </string>
+    <string name="lte_off">LTE DESLIGADO</string>
 
-    <string name="alert_on_charged_level">You can disconnect the charger ( ">"<xliff:g id="percentage">%s</xliff:g> )</string>
-    <string name="battery_level_good_title">Optimal battery level</string>
+    <string name="alert_on_charged_level">Você pode desconectar o carregador ( ">"<xliff:g id="percentage">%s</xliff:g> )</string>
+    <string name="battery_level_good_title">Nível de bateria ideal</string>
     <string name="battery_level_good_sound" translatable="false">/system/media/audio/ui/GoodBattery.ogg</string>
-    <string name="notification_channel_charge_alert">Optimal battery charge level</string>
+    <string name="notification_channel_charge_alert">Nível de bateria ideal</string>
 
     <string name="status_bar_vpn">VPN</string>
     <string name="status_bar_roaming">Roaming</string>
 
-    <string name="lockscreen_default">Default</string>
-    <string name="lockscreen_hidden">None</string>
+    <string name="lockscreen_default">Padrão</string>
+    <string name="lockscreen_hidden">Nulo</string>
 
     <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
-    <string name="custom_hint">Swipe from icon to launch</string>
+    <string name="custom_hint">Deslize pelo ícone para abrir</string>
 
      <!-- Sound QS Tile -->
-     <string name="quick_settings_sound_label">Sound</string>
-     <string name="quick_settings_sound_ring">Ring</string>
-     <string name="quick_settings_sound_vibrate">Vibrate</string>
-     <string name="quick_settings_sound_dnd">Do not disturb</string>
+     <string name="quick_settings_sound_label">Som</string>
+     <string name="quick_settings_sound_ring">Toque</string>
+     <string name="quick_settings_sound_vibrate">Vibrar</string>
+     <string name="quick_settings_sound_dnd">Não perturbe</string>
 
     <!-- Heads Up QS Tile -->
     <string name="quick_settings_heads_up_label">Heads up</string>
-    <string name="accessibility_quick_settings_heads_up_off">Heads up off.</string>
-    <string name="accessibility_quick_settings_heads_up_on">Heads up on.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_off">Heads up turned off.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_on">Heads up turned on.</string>
+    <string name="accessibility_quick_settings_heads_up_off">Heads-up desligados.</string>
+    <string name="accessibility_quick_settings_heads_up_on">Heads-up ligados.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Heads-up foram desligados.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Heads-up foram ligados.</string>
 
     <!-- Heads up snooze toast -->
-    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - Peeking notification are snoozing for 1 minute.</string>
-    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - Peeking notifications are snoozing for <xliff:g id="number">%d</xliff:g> minutes.</string>
+    <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - está silenciado por 1 minuto.</string>
+    <string name="heads_up_snooze_message"><xliff:g id="string">%s</xliff:g> - está silenciado por <xliff:g id="number">%d</xliff:g> minutos.</string>
 
 
     <!-- [CHAR LIMIT=NONE] Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permlab_preventpower">override power key</string>
+    <string name="permlab_preventpower">sobreescrever o botão de energia</string>
     <!-- [CHAR LIMIT=NONE] Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
-    <string name="permdesc_preventpower">Allows an app to override the power key.</string>
+
 
     <!-- accessibility label for button to open running apps prefscreen [CHAR LIMIT=NONE] -->
-    <string name="accessibility_quick_settings_running_services">Open Running Services screen.</string>
+    <string name="accessibility_quick_settings_running_services">Abrir tela de serviços em execução.</string>
 
     <!-- ADB over network QS tile -->
-    <string name="quick_settings_network_adb_enabled_label">Enabled</string>
-    <string name="quick_settings_network_adb_disabled_label">Disabled</string>
-    <string name="quick_settings_network_adb_label">ADB over network</string>
-    <string name="quick_settings_network_adb_toast">USB debugging is not enabled</string>
+    <string name="quick_settings_network_adb_enabled_label">Habilitado</string>
+    <string name="quick_settings_network_adb_disabled_label">Desabilitado</string>
+    <string name="quick_settings_network_adb_label">ADB sobre rede</string>
+    <string name="quick_settings_network_adb_toast">Depuração USB não está habilitada</string>
 
      <!-- Sync QS Tile -->
     <string name="quick_settings_sync_label">Sync</string>
-    <string name="accessibility_quick_settings_sync_off">Sync off</string>
-    <string name="accessibility_quick_settings_sync_on">Sync on</string>
-    <string name="accessibility_quick_settings_sync_changed_off">Sync turned off</string>
-    <string name="accessibility_quick_settings_sync_changed_on">Sync turned on</string>
+    <string name="accessibility_quick_settings_sync_off">Sincronização desligada</string>
+    <string name="accessibility_quick_settings_sync_on">Sincronização ligada</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Sincronização foi desligada</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Sincronização foi ligada</string>
 
     <!-- USB Tethering tile -->
-    <string name="accessibility_quick_settings_usb_tether_off">USB tethering off</string>
-    <string name="accessibility_quick_settings_usb_tether_on">USB tethering on</string>
-    <string name="accessibility_quick_settings_usb_tether_changed_off">USB tethering turned off</string>
-    <string name="accessibility_quick_settings_usb_tether_changed_on">USB tethering turned on</string>
-    <string name="quick_settings_usb_tether_label">USB tethering</string>
+    <string name="accessibility_quick_settings_usb_tether_off">Ancoragem USB desligada</string>
+    <string name="accessibility_quick_settings_usb_tether_on">Ancoragem USB ligada</string>
+    <string name="accessibility_quick_settings_usb_tether_changed_off">Ancoragem USB foi desligada</string>
+    <string name="accessibility_quick_settings_usb_tether_changed_on">Ancoragem USB foi ligada</string>
+    <string name="quick_settings_usb_tether_label">Ancoragem USB</string>
 
     <!-- Compass QS Tile -->
-    <string name="quick_settings_compass_label">Compass</string>
+    <string name="quick_settings_compass_label">Bússola</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
     <string name="quick_settings_compass_init">Initializing\u2026</string>
-    <string name="accessibility_quick_settings_compass_off">Compass off.</string>
-    <string name="accessibility_quick_settings_compass_on">Compass on.</string>
-    <string name="accessibility_quick_settings_compass_changed_off">Compass turned off.</string>
-    <string name="accessibility_quick_settings_compass_changed_on">Compass turned on.</string>
+    <string name="accessibility_quick_settings_compass_off">Bússola desligada.</string>
+    <string name="accessibility_quick_settings_compass_on">Bússola ligada.</string>
+    <string name="accessibility_quick_settings_compass_changed_off">Bússola foi desligada.</string>
+    <string name="accessibility_quick_settings_compass_changed_on">Bússola foi ligada.</string>
     <string name="quick_settings_compass_N">N</string>
     <string name="quick_settings_compass_NE">NE</string>
     <string name="quick_settings_compass_E">E</string>
     <string name="quick_settings_compass_SE">SE</string>
     <string name="quick_settings_compass_S">S</string>
-    <string name="quick_settings_compass_SW">SW</string>
-    <string name="quick_settings_compass_W">W</string>
-    <string name="quick_settings_compass_NW">NW</string>
+    <string name="quick_settings_compass_SW">SO</string>
+    <string name="quick_settings_compass_W">O</string>
+    <string name="quick_settings_compass_NW">NO</string>
 
     <!-- Screenshot QS tile -->
-    <string name="quick_settings_screenrecord_label">Screenrecord</string>
-    <string name="quick_settings_screenrecord_lq_label">Screenrecord LQ</string>
-    <string name="quick_settings_screenrecord_mq_label">Screenrecord MQ</string>
-    <string name="quick_settings_screenrecord_hq_label">Screenrecord HQ</string>
+    <string name="quick_settings_screenrecord_label">Gravação de tela</string>
+    <string name="quick_settings_screenrecord_lq_label">Gravação de tela LQ</string>
+    <string name="quick_settings_screenrecord_mq_label">Gravação de tela MQ</string>
+    <string name="quick_settings_screenrecord_hq_label">Gravação de tela HQ</string>
 
 </resources>
 
