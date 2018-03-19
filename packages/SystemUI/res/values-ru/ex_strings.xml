@@ -131,4 +131,11 @@
     <string name="quick_settings_network_adb_disabled_label">Выключено</string>
     <string name="quick_settings_network_adb_label">ADB по сети</string>
     <string name="quick_settings_network_adb_toast">Отладка USB не включена</string>
+
+    <!-- Sync QS Tile -->
+    <string name="quick_settings_sync_label">Синхронизация</string>
+    <string name="accessibility_quick_settings_sync_off">Синхронизация выключена</string>
+    <string name="accessibility_quick_settings_sync_on">Синхронизация включена</string>
+    <string name="accessibility_quick_settings_sync_changed_off">Синхронизация выключена</string>
+    <string name="accessibility_quick_settings_sync_changed_on">Синхронизация включена</string>
 </resources>
