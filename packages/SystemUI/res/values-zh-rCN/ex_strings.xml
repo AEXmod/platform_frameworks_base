@@ -47,7 +47,7 @@
     <string name="quick_settings_screenshot_label">截屏</string>
     <string name="quick_settings_region_screenshot_label">局部截屏</string>
 
-    <string name="recents_free_ram">剩余运存:</string>
+    <string name="recents_free_ram">剩余运存: %1$d MB</string>
 
     <!-- volte icon switch -->
     <string name="status_bar_volte">VOLTE</string>
@@ -80,9 +80,9 @@
     <string name="lte_off">LTE OFF</string>
 
     <string name="alert_on_charged_level">你可以断开充电器 ( ">"<xliff:g id="percentage">%s</xliff:g> )</string>
-    <string name="battery_level_good_title">最佳的电池级别</string>
+    <string name="battery_level_good_title">最佳充电级别</string>
     <string name="battery_level_good_sound" translatable="false">/system/media/audio/ui/GoodBattery.ogg</string>
-    <string name="notification_channel_charge_alert">最佳的电池充电级别</string>
+    <string name="notification_channel_charge_alert">最佳电池充电级别</string>
 
     <string name="status_bar_vpn">VPN</string>
     <string name="status_bar_roaming">漫游</string>
@@ -103,8 +103,8 @@
     <string name="quick_settings_heads_up_label">悬浮消息</string>
     <string name="accessibility_quick_settings_heads_up_off">悬浮消息关闭</string>
     <string name="accessibility_quick_settings_heads_up_on">悬浮消息开启</string>
-    <string name="accessibility_quick_settings_heads_up_changed_off">Heads up turned off.</string>
-    <string name="accessibility_quick_settings_heads_up_changed_on">Heads up turned on.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">悬浮消息关闭</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">悬浮消息开启</string>
 
     <!-- Heads up snooze toast -->
     <string name="heads_up_snooze_message_one_minute"><xliff:g id="string">%s</xliff:g> - 禁用通知一分钟.</string>
@@ -127,39 +127,51 @@
 
      <!-- Sync QS Tile -->
     <string name="quick_settings_sync_label">同步</string>
-    <string name="accessibility_quick_settings_sync_off">Sync off</string>
-    <string name="accessibility_quick_settings_sync_on">Sync on</string>
-    <string name="accessibility_quick_settings_sync_changed_off">Sync turned off</string>
-    <string name="accessibility_quick_settings_sync_changed_on">Sync turned on</string>
+    <string name="accessibility_quick_settings_sync_off">同步关闭</string>
+    <string name="accessibility_quick_settings_sync_on">同步开启</string>
+    <string name="accessibility_quick_settings_sync_changed_off">同步关闭</string>
+    <string name="accessibility_quick_settings_sync_changed_on">同步开启</string>
 
     <!-- USB Tethering tile -->
-    <string name="accessibility_quick_settings_usb_tether_off">USB tethering off</string>
-    <string name="accessibility_quick_settings_usb_tether_on">USB tethering on</string>
-    <string name="accessibility_quick_settings_usb_tether_changed_off">USB tethering turned off</string>
-    <string name="accessibility_quick_settings_usb_tether_changed_on">USB tethering turned on</string>
-    <string name="quick_settings_usb_tether_label">USB 共享</string>
+    <string name="accessibility_quick_settings_usb_tether_off">USB 共享网络关闭</string>
+    <string name="accessibility_quick_settings_usb_tether_on">USB 共享网络开启</string>
+    <string name="accessibility_quick_settings_usb_tether_changed_off">USB 共享网络关闭</string>
+    <string name="accessibility_quick_settings_usb_tether_changed_on">USB 共享网络开启</string>
+    <string name="quick_settings_usb_tether_label">USB 共享网络</string>
 
     <!-- Compass QS Tile -->
     <string name="quick_settings_compass_label">指南针</string>
     <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
     <string name="quick_settings_compass_init">初始化\u2026</string>
-    <string name="accessibility_quick_settings_compass_off">Compass off.</string>
-    <string name="accessibility_quick_settings_compass_on">Compass on.</string>
-    <string name="accessibility_quick_settings_compass_changed_off">Compass turned off.</string>
-    <string name="accessibility_quick_settings_compass_changed_on">Compass turned on.</string>
-    <string name="quick_settings_compass_N">N</string>
-    <string name="quick_settings_compass_NE">NE</string>
-    <string name="quick_settings_compass_E">E</string>
-    <string name="quick_settings_compass_SE">SE</string>
-    <string name="quick_settings_compass_S">S</string>
-    <string name="quick_settings_compass_SW">SW</string>
-    <string name="quick_settings_compass_W">W</string>
-    <string name="quick_settings_compass_NW">NW</string>
+    <string name="accessibility_quick_settings_compass_off">指南针关闭</string>
+    <string name="accessibility_quick_settings_compass_on">指南针开启</string>
+    <string name="accessibility_quick_settings_compass_changed_off">指南针关闭</string>
+    <string name="accessibility_quick_settings_compass_changed_on">指南针开启</string>
+    <string name="quick_settings_compass_N">北</string>
+    <string name="quick_settings_compass_NE">东北</string>
+    <string name="quick_settings_compass_E">东</string>
+    <string name="quick_settings_compass_SE">东南</string>
+    <string name="quick_settings_compass_S">南</string>
+    <string name="quick_settings_compass_SW">西南</string>
+    <string name="quick_settings_compass_W">西</string>
+    <string name="quick_settings_compass_NW">西北</string>
 
 	 <!-- Screenshot QS tile -->
     <string name="quick_settings_screenrecord_label">录屏</string>
     <string name="quick_settings_screenrecord_lq_label">录屏 LQ</string>
     <string name="quick_settings_screenrecord_mq_label">录屏 MQ</string>
     <string name="quick_settings_screenrecord_hq_label">录屏 HQ</string>
+	
+	<!-- OmniJaws -->
+    <string name="omnijaws_service_error">错误</string>
+    <string name="omnijaws_service_unkown">暂无天气数据</string>
+    <string name="omnijaws_service_error_long">无法获取天气数据</string>
+    <string name="omnijaws_service_disabled">服务未开启</string>
+    <string name="omnijaws_detail_header">天气</string>
+    <string name="omnijaws_label_default">天气</string>
+    <string name="omnijaws_current_text">此刻</string>
+    <string name="omnijaws_package_not_available">OmniJaws不可用</string>
+    <string name="omnijaws_service_last_update">上次更新:</string>
+
 
 </resources>
